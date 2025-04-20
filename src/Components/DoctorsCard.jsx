@@ -6,7 +6,7 @@ const DoctorsCard = ({ doctor }) => {
   return (
     <>
       <div className="card bg-base-100 shadow-sm">
-        <figure className="px-10 pt-10">
+        <figure className="px-5 pt-5">
           <img
             src={doctor.image}
             alt="Shoes"
@@ -14,19 +14,17 @@ const DoctorsCard = ({ doctor }) => {
           />
         </figure>
         <div className="card-body items-center text-center">
-          <div className="flex gap-5">
-            <h1>Available</h1>
-            <h1>{doctor.experience}</h1>
+          <div className="flex w-full gap-2">
+          <button className="btn btn-outline rounded-full bg-[#e6f4ea] btn-success">Available</button>
+            <button className="btn btn-outline rounded-full bg-[#e7f0fc] btn-info">{doctor.experience}</button>
           </div>
+          <div className="text-start w-full">
           <h2 className="card-title">{doctor.name}</h2>
-          <h2>{doctor.education}</h2>
-          <p>
-            A card component has a figure, a body part, and inside body there
-            are title and actions parts
-          </p>
-          <div className="card-actions">
-            <p>{doctor.registrationNumber}</p>
-            <button className="btn btn-primary">Buy Now</button>
+          <h2 className="text-gray-500 mt-2">{doctor.education}</h2>
+          </div>
+          <div className="flex flex-col w-full text-start">
+            <p className="mb-2">{doctor.registrationNumber}</p>
+            <button className="btn btn-info rounded-full btn-outline">View Details</button>
           </div>
         </div>
       </div>
