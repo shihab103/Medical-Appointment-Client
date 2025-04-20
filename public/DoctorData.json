@@ -1,0 +1,111 @@
+[
+    {
+      "image": "https://i.ibb.co.com/0VMyVYgq/pexels-tima-miroshnichenko-5407235.jpg",
+      "name": "Dr. Mahmud Hasan",
+      "education": "MBBS, FCPS (Medicine)",
+      "speciality": "Cardiologist",
+      "experience": "12+ Years Experience",
+      "registrationNumber": "DMC-456789",
+      "detailsRoute": "/doctors/mahmud-hasan"
+    },
+    {
+      "image": "https://i.ibb.co.com/S7cqKFPM/pexels-tima-miroshnichenko-8376277.jpg",
+      "name": "Dr. Sabrina Akter",
+      "education": "MBBS, MD (Gynecology)",
+      "speciality": "Gynecologist",
+      "experience": "8+ Years Experience",
+      "registrationNumber": "DMC-987654",
+      "detailsRoute": "/doctors/sabrina-akter"
+    },
+    {
+      "image": "https://i.ibb.co.com/zTtzmQgh/pexels-tima-miroshnichenko-8376189.jpg",
+      "name": "Dr. Rakib Chowdhury",
+      "education": "MBBS, MS (Orthopedics)",
+      "speciality": "Orthopedic Surgeon",
+      "experience": "10+ Years Experience",
+      "registrationNumber": "DMC-123456",
+      "detailsRoute": "/doctors/rakib-chowdhury"
+    },
+    {
+      "image": "https://i.ibb.co.com/FbMV6pb8/pexels-tima-miroshnichenko-8376318.jpg",
+      "name": "Dr. Nusrat Jahan",
+      "education": "MBBS, FCPS (Dermatology)",
+      "speciality": "Dermatologist",
+      "experience": "7+ Years Experience",
+      "registrationNumber": "DMC-334455",
+      "detailsRoute": "/doctors/nusrat-jahan"
+    },
+    {
+      "image": "https://i.ibb.co.com/Tx9TRX0z/pexels-tima-miroshnichenko-5407252.jpg",
+      "name": "Dr. Tanvir Alam",
+      "education": "MBBS, MD (Neurology)",
+      "speciality": "Neurologist",
+      "experience": "11+ Years Experience",
+      "registrationNumber": "DMC-221100",
+      "detailsRoute": "/doctors/tanvir-alam"
+    },
+    {
+      "image": "https://i.ibb.co.com/1fNFV7PN/pexels-tima-miroshnichenko-8376232-1.jpg",
+      "name": "Dr. Farhana Rahman",
+      "education": "MBBS, DGO",
+      "speciality": "Obstetrician",
+      "experience": "6+ Years Experience",
+      "registrationNumber": "DMC-556677",
+      "detailsRoute": "/doctors/farhana-rahman"
+    },
+    {
+      "image": "https://i.ibb.co.com/svwrkvwc/pexels-tessy-agbonome-521343232-19131217.jpg",
+      "name": "Dr. Imran Hossain",
+      "education": "MBBS, FCPS (Surgery)",
+      "speciality": "General Surgeon",
+      "experience": "13+ Years Experience",
+      "registrationNumber": "DMC-778899",
+      "detailsRoute": "/doctors/imran-hossain"
+    },
+    {
+      "image": "https://i.ibb.co.com/G3dbcmwS/pexels-karolina-grabowska-5207117.jpg",
+      "name": "Dr. Meherun Nesa",
+      "education": "MBBS, MS (ENT)",
+      "speciality": "ENT Specialist",
+      "experience": "9+ Years Experience",
+      "registrationNumber": "DMC-998877",
+      "detailsRoute": "/doctors/meherun-nesa"
+    },
+    {
+      "image": "https://i.ibb.co.com/3yzr9DgV/pexels-tima-miroshnichenko-5407249.jpg",
+      "name": "Dr. Arif Mahmud",
+      "education": "MBBS, MD (Psychiatry)",
+      "speciality": "Psychiatrist",
+      "experience": "10+ Years Experience",
+      "registrationNumber": "DMC-112233",
+      "detailsRoute": "/doctors/arif-mahmud"
+    },
+    {
+      "image": "https://i.ibb.co.com/KcLsFNsh/pexels-oys-photography-838143052-19438560.jpg",
+      "name": "Dr. Lamiya Islam",
+      "education": "MBBS, FCPS (Pediatrics)",
+      "speciality": "Child Specialist",
+      "experience": "5+ Years Experience",
+      "registrationNumber": "DMC-223344",
+      "detailsRoute": "/doctors/lamiya-islam"
+    },
+    {
+      "image": "https://i.ibb.co.com/BVXfvBMD/pexels-shkrabaanthony-5215009.jpg",
+      "name": "Dr. Shafiq Rahman",
+      "education": "MBBS, MD (Nephrology)",
+      "speciality": "Nephrologist",
+      "experience": "14+ Years Experience",
+      "registrationNumber": "DMC-334466",
+      "detailsRoute": "/doctors/shafiq-rahman"
+    },
+    {
+      "image": "https://i.ibb.co.com/S7cqKFPM/pexels-tima-miroshnichenko-8376277.jpg",
+      "name": "Dr. Tania Akter",
+      "education": "MBBS, MD (Endocrinology)",
+      "speciality": "Endocrinologist",
+      "experience": "6+ Years Experience",
+      "registrationNumber": "DMC-445577",
+      "detailsRoute": "/doctors/tania-akter"
+    }
+  ]
+  
