@@ -1,14 +1,46 @@
 import React from "react";
+import { NavLink } from "react-router";
 
 const Footer = () => {
+  const link = (
+    <>
+      <NavLink
+        className={({ isActive }) =>
+          isActive ? "underline decoration-gray-600" : ""
+        }
+        to="/"
+      >
+        <p className="text-gray-600 font-medium">Home</p>
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive ? "underline decoration-gray-600" : ""
+        }
+        to="/my-bookings"
+      >
+        <p className="text-gray-600 font-medium">My-Bookings</p>
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive ? "underline decoration-gray-600" : ""
+        }
+        to="/blogs"
+      >
+        <p className="text-gray-600 font-medium">Blogs</p>
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive ? "underline decoration-gray-600" : ""
+        }
+        to="/contactUs"
+      >
+        <p className="text-gray-600 font-medium">Contact Us</p>
+      </NavLink>
+    </>
+  );
   return (
     <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded mt-20 p-10">
-      <nav className="grid grid-flow-col gap-4">
-        <a className="link link-hover">About us</a>
-        <a className="link link-hover">Contact</a>
-        <a className="link link-hover">Jobs</a>
-        <a className="link link-hover">Press kit</a>
-      </nav>
+      <nav className="grid grid-flow-col gap-4">{link}</nav>
       <nav>
         <div className="grid grid-flow-col gap-4">
           <a>

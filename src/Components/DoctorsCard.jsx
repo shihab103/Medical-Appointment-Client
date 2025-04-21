@@ -26,8 +26,8 @@ const DoctorsCard = ({ doctor }) => {
           </div>
           <div className="flex flex-col w-full text-start">
             <p className="mb-2 text-gray-600">{doctor.registrationNumber}</p>
-            {/* <NavLink to={`/doctor-details/${doctor.detailsRoute}`}><button className="btn btn-info rounded-full btn-outline">View Details</button></NavLink> */}
-            <NavLink to='/doctor-details'><button className="btn btn-info rounded-full btn-outline">View Details</button></NavLink>
+            <NavLink to={`/doctor-details/${doctor.id}`}><button className="btn btn-info rounded-full btn-outline">View Details</button></NavLink>
+            {/* <NavLink to='/doctor-details'><button className="btn btn-info rounded-full btn-outline">View Details</button></NavLink> */}
           </div>
         </div>
       </div>

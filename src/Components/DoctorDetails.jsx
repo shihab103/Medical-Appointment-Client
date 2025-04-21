@@ -1,9 +1,16 @@
 import React from "react";
-// import { useLoaderData } from 'react-router';
+import { useLoaderData, useParams } from 'react-router';
 
 const DoctorDetails = () => {
-  // const data = useLoaderData();
+  const data = useLoaderData();
   // console.log(data);
+  const {id} = useParams();
+  // console.log(id);
+  const singleDoctor = data.find(doctor => doctor.id === parseInt(id));
+  // console.log(singleDoctor);
+
+
+
   return (
     <div className="px-20">
       <div className="bg-white mb-10 text-center py-18 rounded-2xl">
@@ -17,27 +24,27 @@ const DoctorDetails = () => {
       {/* card */}
       <div className="flex bg-white p-7 rounded-2xl">
         <div className="w-[230px] mr-5">
-          <img src="doctor-sample.png" alt="" />
+          <img src={singleDoctor.image} alt="" />
         </div>
         <div className="content-center">
-          <h1 className="font-bold text-3xl mb-3">Dr. Cameron Williamson</h1>
-          <p className="text-gray-500">MBBS,MD</p>
-          <p className="text-gray-500 mb-4">General Medicine,DNB</p>
+          <h1 className="font-bold text-3xl mb-3">{singleDoctor.name}</h1>
+          <p className="text-gray-500">{singleDoctor.education}</p>
+          <p className="text-gray-500 mb-4">{singleDoctor.speciality}</p>
 
           <p className="text-gray-500 mb-2">Working at</p>
           <h1 className="font-semibold mb-2">
-            TMMS Medical College & Rafatullah Community Hospital, Bogura
+            {singleDoctor.workingAt}
           </h1>
           <hr className="border-dashed border-gray-400" />
 
-          <p className="text-gray-500 my-2">Reg NO: BD12341254</p>
+          <p className="text-gray-500 my-2">Reg NO: {singleDoctor.registrationNumber}</p>
           <hr className="border-dashed border-gray-400" />
 
           <h1 className="mt-2">
             <span className="font-bold">Availability: </span> sunday
           </h1>
           <h2>
-            <span className="font-bold">consultation Fee:</span> Taka: 273
+            <span className="font-bold">consultation Fee:</span> Taka: {singleDoctor.consultationFee}
           </h2>
         </div>
       </div>
