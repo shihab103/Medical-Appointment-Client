@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router";
 
 const DoctorsCard = ({ doctor }) => {
   // console.log(doctor);
@@ -25,7 +26,8 @@ const DoctorsCard = ({ doctor }) => {
           </div>
           <div className="flex flex-col w-full text-start">
             <p className="mb-2 text-gray-600">{doctor.registrationNumber}</p>
-            <button className="btn btn-info rounded-full btn-outline">View Details</button>
+            {/* <NavLink to={`/doctor-details/${doctor.detailsRoute}`}><button className="btn btn-info rounded-full btn-outline">View Details</button></NavLink> */}
+            <NavLink to='/doctor-details'><button className="btn btn-info rounded-full btn-outline">View Details</button></NavLink>
           </div>
         </div>
       </div>
