@@ -7,10 +7,10 @@ const DoctorPromise = fetch("DoctorData.json").then((res) => res.json());
 const Home = () => {
   return (
     <div>
-      <div>
+      <div className="px-10">
         <Hero></Hero>
       </div>
-      <div>
+      <div className="text-center">
         <AllDoctors DoctorPromise={DoctorPromise}></AllDoctors>
       </div>
     </div>

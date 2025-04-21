@@ -21,9 +21,10 @@ const DoctorsCard = ({ doctor }) => {
           <div className="text-start w-full">
           <h2 className="card-title">{doctor.name}</h2>
           <h2 className="text-gray-500 mt-2">{doctor.education}</h2>
+          <hr className="mt-3 border-dashed border-gray-400" />
           </div>
           <div className="flex flex-col w-full text-start">
-            <p className="mb-2">{doctor.registrationNumber}</p>
+            <p className="mb-2 text-gray-600">{doctor.registrationNumber}</p>
             <button className="btn btn-info rounded-full btn-outline">View Details</button>
           </div>
         </div>
