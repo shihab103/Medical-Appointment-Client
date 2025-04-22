@@ -22,12 +22,12 @@ const Hero = () => {
           </p>
           <div className="text-center py-4">
             <input
-              className="py-2 ps-3 border rounded-full pe-20"
+              className="py-2 mr-2 ps-3 border rounded-full pe-20"
               type="text"
               placeholder="Search any doctor..."
             />
             <input
-              className="btn rounded-full"
+              className="btn btn-primary rounded-full"
               type="submit"
               value="Search Now"
             />

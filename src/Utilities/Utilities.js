@@ -19,6 +19,7 @@ export const addAppointment = doctor => {
 }
 
 export const removeAppointment=(id)=>{
+    console.log(id);
     const appointment = getAppointment();
     const remainingFavorites = appointment.filter(doc => doc.id !== id);
     localStorage.setItem('appointment',JSON.stringify(remainingFavorites))

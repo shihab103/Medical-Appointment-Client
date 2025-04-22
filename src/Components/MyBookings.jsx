@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getAppointment, removeAppointment } from "../Utilities/Utilities";
+import EmptyState from "./EmptyState";
 
 const MyBookings = () => {
   const [displayDoctors, SetDisplayDoctors] = useState([]);
@@ -12,6 +13,10 @@ const MyBookings = () => {
     removeAppointment(id)
     SetDisplayDoctors(getAppointment())
   }
+
+  if(displayDoctors.length < 1){
+    return <EmptyState></EmptyState>
+  } 
 
   return (
     <div>
@@ -37,7 +42,7 @@ const MyBookings = () => {
             </div>
           </div>
           <hr className="border-dashed my-3 border-gray-400" />
-          <button onClick={()=>handleDelete(id)} className="btn hover:bg-red-500 hover:text-white text-red-500 btn-outline w-full rounded-full">
+          <button onClick={()=>handleDelete(doc.id)} className="btn hover:bg-red-500 hover:text-white text-red-500 btn-outline w-full rounded-full">
             Cancel Appointment
           </button>
         </div>
