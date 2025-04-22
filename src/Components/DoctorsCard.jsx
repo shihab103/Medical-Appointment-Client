@@ -2,8 +2,6 @@ import React from "react";
 import { NavLink } from "react-router";
 
 const DoctorsCard = ({ doctor }) => {
-  // console.log(doctor);
-  // const [name] = doctor;
   return (
     <>
       <div className="card bg-base-100 shadow-sm">
@@ -14,10 +12,10 @@ const DoctorsCard = ({ doctor }) => {
             className="rounded-xl w-full h-[220px] object-cover"
           />
         </figure>
-        <div className="card-body items-center text-center">
+        <div className="card-body lg:p-6 px-4 items-center text-center">
           <div className="flex w-full gap-2">
           <button className="btn btn-outline rounded-full bg-[#e6f4ea] btn-success">Available</button>
-            <button className="btn btn-outline rounded-full bg-[#e7f0fc] btn-info">{doctor.experience}</button>
+            <button className="btn btn-outline rounded-full bg-[#e7f0fc] px-2 lg:px-5 btn-info">{doctor.experience}</button>
           </div>
           <div className="text-start w-full">
           <h2 className="card-title">{doctor.name}</h2>
