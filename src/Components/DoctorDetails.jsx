@@ -1,5 +1,5 @@
 import React from "react";
-import { useLoaderData, useParams } from "react-router";
+import { NavLink, useLoaderData, useParams } from "react-router";
 import { addAppointment } from "../Utilities/Utilities";
 
 const DoctorDetails = () => {
@@ -75,9 +75,9 @@ const DoctorDetails = () => {
           Due to high patient volume, we are currently accepting appointments
           for today only. We appreciate your understanding and cooperation.
         </p>
-        <button onClick={handleAppointment} className="btn w-full rounded-full text-white bg-[#176ae5]">
+        <NavLink to='/my-bookings'><button onClick={handleAppointment} className="btn w-full rounded-full text-white bg-[#176ae5]">
           Book Appointment Now
-        </button>
+        </button></NavLink>
       </div>
     </div>
   );
