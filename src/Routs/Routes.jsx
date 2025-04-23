@@ -13,6 +13,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <MainLayout></MainLayout>,
     errorElement: <ErrorPage></ErrorPage>,
+    hydrateFallbackElement: <span className="loading h-screen flex mx-auto items-center justify-center loading-dots loading-sm"></span>,
     children: [
       {
         path: "/",
