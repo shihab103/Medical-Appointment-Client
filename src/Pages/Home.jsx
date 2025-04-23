@@ -16,12 +16,12 @@ const Home = () => {
       </div>
       <div className="text-center mt-10">
         <h1 className="text-4xl font-bold">We Provide Best Medical Services</h1>
-        <p>
+        <p className="mt-3 text-gray-500">
           Our platform connects you with verified, experienced doctors across
           various specialties — all at your convenience.{" "}
         </p>
-        <div className="grid gap-5  grid-cols-4 px-20">
-          <div className="bg-pink-300 text-start rounded-2xl p-10">
+        <div className="grid gap-5  grid-cols-4 mt-10 px-20">
+          <div className="bg-white text-start rounded-2xl p-10">
             <img className="w-10" src="success-doctor.png" alt="" />
             <CountUp
               start={0}
@@ -40,7 +40,7 @@ const Home = () => {
             </CountUp>
             <h2 className="text-gray-500">Total Doctors</h2>
           </div>
-          <div className="text-start rounded-2xl p-10">
+          <div className="bg-white text-start rounded-2xl p-10">
             <img className="w-10" src="success-review.png" alt="" />
             <CountUp
               start={0}
@@ -59,7 +59,7 @@ const Home = () => {
             </CountUp>
             <h2 className="text-gray-500">Total Reviews</h2>
           </div>
-          <div className="text-start rounded-2xl p-10">
+          <div className="bg-white text-start rounded-2xl p-10">
             <img className="w-10" src="success-patients.png" alt="" />
             <CountUp
               start={0}
@@ -78,7 +78,7 @@ const Home = () => {
             </CountUp>
             <h2 className="text-gray-500">Patients</h2>
           </div>
-          <div className="text-start rounded-2xl p-10">
+          <div className="bg-white text-start rounded-2xl p-10">
             <img className="w-10" src="success-staffs.png" alt="" />
             <CountUp
               start={0}
