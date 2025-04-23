@@ -27,7 +27,7 @@ const DoctorDetails = () => {
       {/* card */}
       <div className="flex bg-white p-7 rounded-2xl">
         <div className="w-[230px] mr-5">
-          <img className="" src={singleDoctor.image} alt="" />
+          <img className="h-full object-cover" src={singleDoctor.image} alt="" />
         </div>
         <div className="content-center">
           <h1 className="font-bold text-3xl mb-3">{singleDoctor.name}</h1>
