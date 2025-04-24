@@ -34,8 +34,8 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex lg:w-[550px] w-[250px] mx-auto justify-center gap-3">
-          <img src="banner-img-1.png" alt="" />
-          <img src="banner-img-1.png" alt="" />
+          <img src="/banner-img-1.png" alt="" />
+          <img src="/banner-img-1.png" alt="" />
         </div>
       </div>
     </>

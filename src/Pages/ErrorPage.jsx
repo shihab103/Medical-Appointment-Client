@@ -8,7 +8,7 @@ const ErrorPage = () => {
       <Navbar></Navbar>
       <div className="mt-5 h-[500px]">
         <div className="mx-auto max-w-[300px]">
-          <img className="shadow-md" src="error.jpg" alt="" />
+          <img className="shadow-md" src="/error.jpg" alt="" />
         </div>
         <div className="text-center mt-5">
           <h1 className="text-4xl font-bold text-red-400">

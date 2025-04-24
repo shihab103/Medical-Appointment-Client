@@ -79,7 +79,7 @@ const Home = () => {
             <h2 className="text-gray-500">Patients</h2>
           </div>
           <div className="bg-white text-start rounded-2xl p-10">
-            <img className="w-10" src="success-staffs.png" alt="" />
+            <img className="w-10" src="/success-staffs.png" alt="" />
             <CountUp
               start={0}
               end={300}

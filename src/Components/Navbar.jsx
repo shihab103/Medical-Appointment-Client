@@ -37,7 +37,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex gap-2 items-center">
-            <img className="w-8" src="logo.png" alt="" />
+            <img className="w-8" src="/logo.png" alt="" />
         <a className="font-bold text-xl">Phudu</a>
 
         </div>
