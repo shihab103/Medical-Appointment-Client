@@ -3,7 +3,7 @@ import Hero from "../Components/Hero";
 import AllDoctors from "../Components/AllDoctors";
 import CountUp from "react-countup";
 
-const DoctorPromise = fetch("DoctorData.json").then((res) => res.json());
+const DoctorPromise = fetch("/DoctorData.json").then((res) => res.json());
 
 const Home = () => {
   return (
