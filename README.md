@@ -1,12 +1,21 @@
-# React + Vite
+# 🩺 Medical Appointment Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and user-friendly web application that allows patients to schedule medical appointments easily.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
+[Click here to visit the website](https://starlit-clafoutis-e0ed50.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshot
+<img width="944" height="434" alt="MedicalHome" src="https://github.com/user-attachments/assets/cf218a2c-5729-471e-b865-b4834a9f3cb7" />
 
-## Expanding the ESLint configuration
+## ✨ Features
+- Book medical appointments online
+- View available doctors and time slots
+- Responsive design for all devices
+- Easy navigation and clean UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+- HTML, CSS, JavaScript
+- React.js
+- Tailwind CSS
+- Netlify (for deployment)
